@@ -42,10 +42,6 @@ public final class ClassUtil {
         return cls;
     }
 
-    public static void main(String[] args) {
-        getClassSet("org.smart4j.framework");
-    }
-
     /**
      * 最复杂的是获取指定包名下的所有类，需要根据包名并将其转换为文件路径，读取class文件或jar包，获取指定的类名去加载类。
      */
